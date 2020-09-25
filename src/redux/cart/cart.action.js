@@ -4,4 +4,7 @@ export const toggleCardHidden = () => ({
     type: CartActionTypes.TOGGLE_CART_HIDDEN
 });
 
-export default toggleCardHidden();
+export const addItem = item => ({
+    type: CartActionTypes.ADD_ITEM,
+    payload: item
+})
