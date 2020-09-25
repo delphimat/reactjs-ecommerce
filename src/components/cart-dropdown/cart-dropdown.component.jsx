@@ -20,7 +20,7 @@ const CartDropDown = ({cardItems}) => {
     )
 }
 
-const mapStateToProps = ({ cartRedux: {cardItems}}) => ({
+const mapStateToProps = ({ cardRedux: {cardItems}}) => ({
     cardItems
 })
 

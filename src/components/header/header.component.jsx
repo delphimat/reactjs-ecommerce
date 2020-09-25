@@ -46,7 +46,7 @@ const Header  = ({currentUser, hidden}) => (
     </div>
 )
 
-const mapStateToProps = ({userRedux: {currentUser}, cartRedux: {hidden}}) => ({
+const mapStateToProps = ({userRedux: {currentUser}, cardRedux: {hidden}}) => ({
     currentUser,
     hidden
 
